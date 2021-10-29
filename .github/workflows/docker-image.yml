@@ -21,7 +21,7 @@ jobs:
       with:
         image: samrajpur/multi-docker-hub-repo
         registry: docker.io
-        directory: /nginx
+        directory: /nginx/.
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
